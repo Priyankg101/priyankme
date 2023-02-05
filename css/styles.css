@@ -688,6 +688,8 @@ a.fa.fa-angle-down:focus {
 #about img#prof-pic {
   width: 170px;
   height: auto;
+  padding: 5px;
+  border: solid 1px black;
 }
 
 #about p {
@@ -807,6 +809,8 @@ a.fa.fa-angle-down:focus {
 @media screen and (max-width: 480px) {
   #about img#prof-pic {
     width: 150px;
+    padding: 5px;
+    border: solid 1px black;
   }
   #about #tl-dr {
     width: 90%;
