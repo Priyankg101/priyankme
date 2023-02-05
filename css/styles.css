@@ -23,7 +23,15 @@ body {
     -webkit-font-smoothing: subpixel-antialiased;
     font-weight: normal;
 }
-
+#video, #alternative {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
 button:focus,
 .btn:focus {
     outline: 0 !important;
@@ -666,11 +674,12 @@ a.fa.fa-angle-down:focus {
 
 #about #tl-dr {
     background: #f0f0f0;
-    color: #555;
+    color: rgb(17, 17, 17);
     text-align: center;
     margin: 0px auto;
     padding: 20px;
     height: 200px;
+    opacity: 0.6;
     width: 50%;
     max-width: 650px;
 }
